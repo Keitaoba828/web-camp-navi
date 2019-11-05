@@ -1,0 +1,251 @@
+.site-header{
+    background: #fff;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+.site-logo img{
+    height: 40px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.section-img{
+  padding-top: 80px;
+  width: 100%;
+  height: 550px;
+  background-image: url(img/background.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.cash-img{
+  width: 25%;
+  margin-top: 40px;
+}
+
+.main-message{
+  font-size: 180%;
+}
+
+.daiyon-img{
+  width: 40%;
+}
+
+.allow{
+  margin-top: 30px;
+  width: width="7%";
+}
+
+.mortal_btn{
+	text-align: center;
+}
+
+.btn-gradient-radius {
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #EF436F;
+  transition: .4s;
+}
+
+.section-choice{
+  width: 100%;
+  height: 350px;
+  text-align: center;
+}
+
+.title{
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.three{
+  width: 40%;
+  margin-top: 20px;
+}
+
+.section-last{
+  width: 100%;
+  height: 630px;
+  background-image: url(img/back-white.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.keizai-img{
+  width: 40%;
+  margin-top: 10px;
+}
+
+.detail{
+   line-height: 35px;
+}
+
+.container {
+  font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+.btn-open {
+  display: inline-block;
+  width: 270px;
+  height:50px;
+  text-align: center;
+  background-color: #EF436F;
+  font-size: 16px;
+  line-height: 52px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #EF436F;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn-open:after{
+  width: 100%;
+  height: 0;
+  content:"";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background : #FFF;
+  opacity: 0;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transition: .2s;
+  z-index: -1;
+}
+.btn-open:hover{
+  color: #EF436F;
+}
+.btn-open:hover:after{
+  height: 340%;
+  opacity: 1;
+}
+.btn-open:active:after{
+  height: 340%;
+  opacity: 1;
+}
+
+   
+
+
+@media only screen and (max-width:768px) {
+
+.section-img{
+  height: 80%;
+}
+
+.cash-img{
+  width: 55%;
+  margin-top: 20px;
+}
+
+.main-message{
+  font-size: 130%;
+}
+
+.daiyon-img{
+  width: 90%;
+}
+
+.btn-gradient-radius {
+  font-size: 130%;
+}
+
+.title{
+  padding-top: 20px;
+  font-size: 170%;
+}
+
+.section-choice{
+  height: 300px;
+}
+
+.three{
+  width: 80%;
+}
+
+.section-last{
+  height: 530px;
+}
+
+.keizai-img{
+  width: 80%;
+}
+
+.detail{
+  margin: 0 auto;
+  width: 90%;
+  font-size: 100%;
+  line-height: 35px;
+}
+
+.detail-sub{
+  font-size: 80%;
+}
+
+.kaigyo{
+  display: none;
+}
+
+}
+
+@media only screen and (max-width:414px) {
+
+.site-header{
+  height: 70px;
+}
+
+.site-logo img{
+  height: 35px;
+  text-align: center;
+}
+
+.cash-img{
+  width: 75%;
+}
+
+.section-choice{
+  height: 170px;
+}
+
+.three{
+  width: 90%;
+  margin-top: 5px;
+}
+
+.section-last{
+  height: 390px;
+}
+
+.detail{
+  margin-top: 10px;
+  line-height: 25px;
+  font-size: 68%;
+}
+
+.mortal_btn{
+  font-size: 80%;
+}
+
+.detail-sub{
+  margin-bottom: 5px;
+}
+
+.title{
+  font-size: 130%;
+}
+
+}
+  
+@media screen and (min-width:1024px) {
+.kaigyo{
+  display: none;
+}
+}
